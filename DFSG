@@ -1,0 +1,19 @@
+
+
+    if($eks->insert() &&  $eks->jm = $_POST['jm']+$jum_nilai<=1){
+?>
+<div class="alert alert-success alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Berhasil Tambah Data!</strong> Tambah lagi atau <a href="nilai.php">lihat semua data</a>.
+</div>
+<?php
+    }
+    
+    else{
+?>
+<div class="alert alert-danger alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Gagal Tambah Data!</strong> Terjadi kesalahan, coba sekali lagi.
+</div>
+<?php
+    }
